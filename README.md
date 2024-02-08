@@ -39,7 +39,7 @@ class Deck {
     }
 
     private void initializeDeck(int numDecks) {
-	String[] suits = {"Hearts", "Diamonds", "Clubs", "Spades"}
+	String[] suits = {"Hearts", "Diamonds", "Clubs", "Spades"};
 	String[] ranks = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"};
 
 	cards = new Card[numDecks * 52];
@@ -150,7 +150,7 @@ public class WarGameApp {
 	System.out.println("Enter your name:");
 	String playerName = scanner.nextLine();
 
-	System.out.println("Enter the number of decks to use (1 for single or 6 for a standard casino one");
+	System.out.println("Enter the number of decks to use (1 for single or 6 for a standard casino one"));
 	int numDecks = scanner.nextInt();
 
 	System.out.println("Enter the number of starting chips:");
