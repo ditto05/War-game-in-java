@@ -165,7 +165,7 @@ public class WarGameApp {
 		case 1:
 		    System.out.println("Enter your wager:");
 		    int wagerAmount = scanner.nextInt();
-		    warGame.player.placeWager(wagerAmount);
+		    warGame.placePlayerWager(wagerAmount);
 
 		    warGame.playRound();
 		    break;
